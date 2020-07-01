@@ -1,0 +1,10 @@
+#!/bin/sh
+
+dest=$HOME/devel/dotfiles
+
+cp /usr/share/xsessions/dwm.desktop $dest
+cp $HOME/.bashrc $dest
+cp $HOME/.config/.vimrc $dest
+cp $HOME/.config/compton.conf $dest
+cp $HOME/.config/liferea/feedlist.opml $dest
+

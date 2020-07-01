@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=dwm
+Comment=Cool WM
+Exec=dwm
+TryExec=/usr/local/bin/dwm
+Type=Application
