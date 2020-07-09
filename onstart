@@ -1,0 +1,7 @@
+#!/usr/bin/sh
+
+xwallpaper --zoom ~/Pictures/wallpapers/nature.png
+
+[ $# != 0 ] && [ $1 = "c" ] && compton --config ~/.config/compton.conf -b
+
+dwm-bar loop &
