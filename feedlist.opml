@@ -109,7 +109,11 @@
       <outline title="Not Related! A Big-Braned Podcast" text="Not Related! A Big-Braned Podcast" description="Not Related! A Big-Braned Podcast" type="rss" id="ycrvvll" sortColumn="time" xmlUrl="https://notrelated.xyz/rss" htmlUrl="http://notrelated.libsyn.com/website" updateInterval="-1" collapsed="true"/>
     </outline>
     <outline title="tech" text="tech" description="tech" type="folder" id="iljncve" sortColumn="time" expanded="true">
-      <outline title="suckless.org news" text="suckless.org news" description="suckless.org news" type="atom" id="kcrqimm" sortColumn="time" xmlUrl="https://suckless.org/atom.xml" htmlUrl="https://www.suckless.org/atom.xml" updateInterval="-1" collapsed="true"/>
+      <outline title="suckless.org news" text="suckless.org news" description="suckless.org news" type="atom" id="kcrqimm" sortColumn="title" sortReversed="false" xmlUrl="https://suckless.org/atom.xml" htmlUrl="https://www.suckless.org/atom.xml" updateInterval="-1" collapsed="true"/>
+      <outline title="music" text="music" description="music" type="folder" id="fqiccei" sortColumn="time" expanded="true">
+        <outline title="Oolacile" text="Oolacile" description="Oolacile" type="rss" id="bjmnexb" sortColumn="time" xmlUrl="https://feeds.soundcloud.com/users/soundcloud:users:82198429/sounds.rss" htmlUrl="https://oolacile.bigcartel.com/" updateInterval="-1" collapsed="true"/>
+        <outline title="CloudEngine" text="CloudEngine" description="CloudEngine" type="rss" id="mvmkkmx" sortColumn="time" xmlUrl="https://feeds.soundcloud.com/users/soundcloud:users:290052551/sounds.rss" htmlUrl="https://soundcloud.com/lol-133305867" updateInterval="-1" collapsed="true"/>
+      </outline>
     </outline>
     <outline title="Unread" text="Unread" description="Unread" type="vfolder" id="safxlum" sortColumn="time" matchType="any" collapsed="true">
       <outline type="rule" text="Read status" rule="unread" value="" additive="true"/>
