@@ -2,10 +2,10 @@
 
 dest=$HOME/devel/dotfiles
 
-cp /usr/share/xsessions/dwm.desktop $dest
-cp $HOME/.bashrc $dest
-cp $HOME/.config/.vimrc $dest
-cp $HOME/.config/compton.conf $dest
-cp $HOME/.config/liferea/feedlist.opml $dest
-cp /usr/bin/onstart $dest
+cp /usr/share/xsessions/dwm.desktop $dest -f
+cp $HOME/.bashrc $dest -f
+cp $HOME/.config/.vimrc $dest -f
+cp $HOME/.config/compton.conf $dest -f
+# cp $HOME/.config/liferea/feedlist.opml $dest -f
+cp /usr/bin/onstart $dest -f
 

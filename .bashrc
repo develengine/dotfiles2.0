@@ -94,6 +94,7 @@ alias l='ls -CF'
 
 # custom aliases
 alias vim='vim -u ~/.config/.vimrc'
+alias oi='devour sxiv'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
