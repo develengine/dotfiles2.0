@@ -5,3 +5,5 @@ xwallpaper --zoom ~/Pictures/wallpapers/nature-1920x1080.png
 [ $# != 0 ] && [ $1 = "c" ] && compton --config ~/.config/compton.conf -b
 
 dwm-bar loop &
+
+xset r rate 280 40

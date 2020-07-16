@@ -1,11 +1,11 @@
 #!/bin/sh
 
-dest=$HOME/devel/dotfiles
+dotfiles=$HOME/devel/dotfiles2.0
 
-cp /usr/share/xsessions/dwm.desktop $dest -f
-cp $HOME/.bashrc $dest -f
-cp $HOME/.config/.vimrc $dest -f
-cp $HOME/.config/compton.conf $dest -f
-# cp $HOME/.config/liferea/feedlist.opml $dest -f
-cp /usr/bin/onstart $dest -f
-
+cp /usr/share/xsessions/dwm.desktop $dotfiles
+cp $HOME/.bashrc $dotfiles
+cp $HOME/.config/.vimrc $dotfiles
+cp $HOME/.config/compton.conf $dotfiles
+# cp $HOME/.config/liferea/feedlist.opml $dotfiles
+cp /usr/bin/onstart $dotfiles
+cp $HOME/.config/nvim/init.vim $dotfiles

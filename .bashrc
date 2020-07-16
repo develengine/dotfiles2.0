@@ -2,6 +2,8 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+# TEST
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -14,6 +16,9 @@ HISTCONTROL=ignoreboth
 
 # append to the history file, don't overwrite it
 shopt -s histappend
+
+# enable vi mode
+set -o vi
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=1000
@@ -93,8 +98,10 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # custom aliases
-alias vim='vim -u ~/.config/.vimrc'
-alias oi='devour sxiv'
+alias ovim='vim -u ~/.config/.vimrc'
+alias vim='nvim'
+alias t='st -f JetBrainsMono-11 -t Terminal'
+alias oi='consume sxiv'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
