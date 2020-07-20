@@ -9,3 +9,4 @@ cp $HOME/.config/compton.conf $dotfiles
 # cp $HOME/.config/liferea/feedlist.opml $dotfiles
 cp /usr/bin/onstart $dotfiles
 cp $HOME/.config/nvim/init.vim $dotfiles
+cp $HOME/.profile $dotfiles
