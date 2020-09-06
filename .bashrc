@@ -102,6 +102,11 @@ alias ovim='vim -u ~/.config/.vimrc'
 alias vim='nvim'
 alias t='st -f JetBrainsMono-11 -t Terminal'
 alias oi='consume sxiv'
+alias rip='youtube-dl -x -f bestaudio/best'
+
+eat() {
+    consume $SHELL -i -c "$*"
+}
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

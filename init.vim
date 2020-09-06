@@ -55,6 +55,13 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
+" Pluggins
+call plug#begin('~/.vim/plugged')
+
+Plug 'jceb/vim-orgmode'
+
+call plug#end()
+
 " Custom stuff
 
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab

@@ -27,6 +27,4 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 # set PATH so it includes the go bin directory if it exists
-if [ -d "/usr/local/go/bin" ] ; then
-    PATH="/usr/local/go/bin:$PATH"
-fi
+export PATH=$PATH:/usr/local/go/bin

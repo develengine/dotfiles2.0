@@ -1,10 +1,6 @@
 # /etc/profile: system-wide .profile file for the Bourne shell (sh(1))
 # and Bourne compatible shells (bash(1), ksh(1), ash(1), ...).
 
-if [ -d "/usr/local/go/bin" ] ; then
-  export PATH=$PATH:/usr/local/go/bin
-fi
-
 if [ "${PS1-}" ]; then
   if [ "${BASH-}" ] && [ "$BASH" != "/bin/sh" ]; then
     # The file bash.bashrc already sets the default PS1.
