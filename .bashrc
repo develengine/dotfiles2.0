@@ -92,6 +92,9 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
+# additions to PATH
+export PATH=/home/jakub/.local/bin:$PATH
+
 # some more ls aliases
 alias ll='ls -alh'
 alias la='ls -A'
@@ -103,6 +106,7 @@ alias vim='nvim'
 alias t='st -f JetBrainsMono-11 -t Terminal'
 alias oi='consume sxiv'
 alias rip='youtube-dl -x -f bestaudio/best'
+alias vid='consume mpv'
 
 eat() {
     consume $SHELL -i -c "$*"

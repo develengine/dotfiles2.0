@@ -12,3 +12,4 @@ cp /usr/bin/onexit $dotfiles
 cp $HOME/.config/nvim/init.vim $dotfiles
 cp $HOME/.profile $dotfiles
 cp /etc/profile $dotfiles
+cp /etc/modprobe.d/droidcam.conf $dotfiles
