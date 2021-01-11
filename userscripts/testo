@@ -1,0 +1,4 @@
+#! /bin/bash
+
+echo "open -t https://lukesmith.xyz" >> $QUTE_FIFO
+

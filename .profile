@@ -28,3 +28,5 @@ fi
 
 # set PATH so it includes the go bin directory if it exists
 export PATH=$PATH:/usr/local/go/bin
+
+export PATH=$PATH:$HOME/scripts

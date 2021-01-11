@@ -104,9 +104,10 @@ alias l='ls -CF'
 alias ovim='vim -u ~/.config/.vimrc'
 alias vim='nvim'
 alias t='st -f JetBrainsMono-11 -t Terminal'
-alias oi='consume sxiv'
+alias img='consume sxiv'
 alias rip='youtube-dl -x -f bestaudio/best'
 alias vid='consume mpv'
+alias wallpaper='xwallpaper --zoom'
 
 eat() {
     consume $SHELL -i -c "$*"
