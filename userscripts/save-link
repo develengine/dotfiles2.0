@@ -1,0 +1,4 @@
+#! /bin/bash
+
+echo "$QUTE_URL" >> ~/omegalul/uris.txt
+

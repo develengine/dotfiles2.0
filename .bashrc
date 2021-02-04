@@ -108,6 +108,11 @@ alias img='consume sxiv'
 alias rip='youtube-dl -x -f bestaudio/best'
 alias vid='consume mpv'
 alias wallpaper='xwallpaper --zoom'
+alias color='x11-colorpicker'
+
+twitch-run() {
+    consume mpv https://twitch.tv/$1
+}
 
 eat() {
     consume $SHELL -i -c "$*"
