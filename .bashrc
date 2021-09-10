@@ -96,19 +96,25 @@ fi
 export PATH=/home/jakub/.local/bin:$PATH
 
 # some more ls aliases
-alias ll='ls -alh'
+alias ll='ls -alh --group-directories-first'
 alias la='ls -A'
 alias l='ls -CF'
 
 # custom aliases
 alias ovim='vim -u ~/.config/.vimrc'
 alias vim='nvim'
-alias t='st -f JetBrainsMono-11 -t Terminal'
 alias img='consume sxiv'
 alias rip='youtube-dl -x -f bestaudio/best'
+alias play-playlist='mpv --loop-playlist --shuffle --volume=50'
 alias vid='consume mpv'
 alias wallpaper='xwallpaper --zoom'
 alias color='x11-colorpicker'
+alias cb='xclip -i -sel clip'
+alias ywd='pwd | cb'
+
+sync-playlist() {
+    youtube-dl -x -f bestaudio/best --download-archive playlist-archive $(cat $*/playlist-url)
+}
 
 twitch-run() {
     consume mpv https://twitch.tv/$1
