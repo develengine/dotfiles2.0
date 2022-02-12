@@ -3,6 +3,8 @@
 # for examples
 
 # TEST
+export EDITOR='nvim'
+export VISUAL='nvim'
 
 # If not running interactively, don't do anything
 case $- in
