@@ -1,6 +1,6 @@
 #!/bin/sh
 
-dotfiles=$HOME/devel/dotfiles2.0
+dotfiles=$HOME/dev/dotfiles2.0
 
 cp /usr/share/xsessions/dwm.desktop $dotfiles
 cp $HOME/.bashrc $dotfiles
