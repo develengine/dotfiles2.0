@@ -55,13 +55,6 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
-" Pluggins
-call plug#begin('~/.vim/plugged')
-
-Plug 'jceb/vim-orgmode'
-
-call plug#end()
-
 " Custom stuff
 
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
@@ -74,9 +67,12 @@ highlight Statement ctermfg=White cterm=NONE
 
 "set t_Co=16
 
-map <C-t><up> :tabr<cr>
-map <C-t><down> :tabl<cr>
-map <C-t><left> :tabp<cr>
-map <C-t><right> :tabn<cr>
+let c_no_curly_error = 1
 
+map <C-up>    :tabr<cr>
+map <C-down>  :tabl<cr>
+map <C-left>  :tabp<cr>
+map <C-right> :tabn<cr>
+
+autocmd BufWritePost * silent !./nvim_on_save <afile>
 

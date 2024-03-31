@@ -103,19 +103,21 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # custom aliases
-alias ovim='vim -u ~/.config/.vimrc'
-alias vim='nvim'
 alias img='consume sxiv'
-alias rip='youtube-dl -x -f bestaudio/best'
+alias rip='yt-dlp -x -f bestaudio/best'
 alias play-playlist='mpv --loop-playlist --shuffle --volume=50'
 alias vid='consume mpv'
 alias wallpaper='xwallpaper --zoom'
 alias color='x11-colorpicker'
 alias cb='xclip -i -sel clip'
 alias ywd='pwd | cb'
+alias aisa="xboros1@aisa.fi.muni.cz"
+
+alias git-zip='zip -r .git.zip .git && rm -rf .git'
+alias git-unzip='unzip .git.zip && rm .git.zip'
 
 sync-playlist() {
-    youtube-dl -x -f bestaudio/best --download-archive playlist-archive $(cat $*/playlist-url)
+    yt-dlp -x -f bestaudio/best --download-archive playlist-archive $(cat $*/playlist-url)
 }
 
 twitch-run() {
@@ -150,4 +152,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+source ~/vulkan/1.3.261.1/setup-env.sh
+source "$HOME/.cargo/env"
+
 PS1="\[\033[01;32m\][\[\033[01;34m\]\w\[\033[00m\]\[\033[01;32m\]]\[\033[00m\] "
+. "$HOME/.cargo/env"
