@@ -14,3 +14,4 @@ cp $HOME/.profile $dotfiles
 cp /etc/profile $dotfiles
 cp /etc/modprobe.d/droidcam.conf $dotfiles
 cp -rf $HOME/.local/share/qutebrowser/userscripts $dotfiles
+cp $HOME/.config/alacritty/alacritty.toml $dotfiles

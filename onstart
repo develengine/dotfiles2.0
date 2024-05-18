@@ -6,6 +6,6 @@ compton --config ~/.config/compton.conf -b
 
 dwm-bar loop &
 
-setxkbmap -layout us,sk -variant ,qwerty -option 'grp:alt_caps_toggle'
+setxkbmap -layout us,sk,de -variant ,qwerty,qwerty -option 'grp:alt_caps_toggle'
 
 xset r rate 280 40
