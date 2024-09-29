@@ -1,6 +1,6 @@
 #!/bin/sh
 
-xwallpaper --zoom ~/pic/wallpapers/bog.png
+xwallpaper --zoom ~/pic/wallpapers/nature.png
 
 compton --config ~/.config/compton.conf -b
 
