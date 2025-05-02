@@ -501,7 +501,7 @@ hi def link cCppInElse2		cCppOutIf2
 hi def link cCppOutIf2		cCppOut
 hi def link cCppOut		Comment
 
-syn keyword cType     u64 i64 u32 i32 u16 i16 u8 i8 f64 f32 b32
+syn keyword cType     u64 i64 s64 u32 i32 s32 u16 i16 s16 u8 i8 s8 f64 f32 b32
 syn match   cType     "\h\w*_[tT]\w\@!"
 syn match   cConstant "\s[a-z][a-z_]*_[A-Z][a-zA-Z]*\w\@!"
 

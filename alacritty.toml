@@ -1,5 +1,8 @@
 [window]
 opacity = 0.7
 
+[colors.primary]
+background =  '#2b2b2b'
+
 [font]
 normal = { family = "JetBrainsMono", style = "Regular" }
