@@ -2,7 +2,7 @@
 
 xwallpaper --zoom ~/pic/wallpapers/nature.png
 
-compton --config ~/.config/compton.conf -b
+# compton --config ~/.config/compton.conf -b
 
 dwm-bar loop &
 
